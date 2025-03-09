@@ -24,3 +24,19 @@ Tooltips: Provides detailed information about alignments and SVs.
 
 4. Exportable Visualizations
 Saves visualizations as high-resolution images (PNG, SVG) for use in publications or presentations.
+
+# Installation
+Clone the repository:
+git clone https://github.com/akashmahesh2805/genome-compare.git
+cd genome-compare
+
+Build the project:
+cargo build --release
+
+Usage:
+Visualizing a Chain File
+To visualize alignments and structural variations from a chain file:
+cargo run -- --chain example.chain
+
+# License
+This project is licensed under the Apache License 2.0.
